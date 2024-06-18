@@ -1,0 +1,265 @@
+{ "status" : "ok",
+"totalResults": 45,
+"articles": [
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Ece Yildirim, Sarah Whitten",
+"title": "Justice Department sues to break up Live Nation, parent of Ticketmaster - CNBC",
+"description": "The lawsuit follows a DOJ probe bolstered by fan complaints following a botched roll out for tickets to Taylor Swift's Eras tour.",
+"url": "https://www.cnbc.com/2024/05/23/justice-department-sues-live-nation-ticketmaster.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/107418915-1716417155426-gettyimages-2147879115-LIVE_NATION_LAWSUIT.jpeg?v=1716417236&w=1920&h=1080",
+"publishedAt": "2024-05-23T14:30:27Z",
+"content": "The U.S. Department of Justice is suing to break up Live Nation, the parent company of Ticketmaster, over alleged antitrust violations.\r\nThe lawsuit, joined by 30 states and filed Thursday, follows a… [+4535 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Robert Frank",
+"title": "Palm Beach housekeepers are making $150,000 a year due to massive demand from the wealthy - CNBC",
+"description": "The mass wealth migration to Florida from New York and other high-tax states has created record demand for household staff in elite Florida enclaves.",
+"url": "https://www.cnbc.com/2024/05/23/palm-beach-housekeepers-massive-demand.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/107418827-1716407351029-gettyimages-1489531690-fe-2425.jpeg?v=1716472498&w=1920&h=1080",
+"publishedAt": "2024-05-23T14:00:01Z",
+"content": "A version of this article first appeared in CNBC's Inside Wealth newsletter with Robert Frank, a weekly guide to the high net worth investor and consumer. Sign up to receive future editions, straight… [+3239 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Financial Times"
+},
+"author": null,
+"title": "Nvidia's revenue soars 262% on record AI chip demand - Financial Times",
+"description": "Semiconductor maker also announces a 10-for-1 stock split after quarterly results beat high expectations",
+"url": "https://www.ft.com/content/2ce59a81-61b7-4052-810e-8bdc425367e4",
+"urlToImage": null,
+"publishedAt": "2024-05-23T13:57:26Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "Investor's Business Daily"
+},
+"author": "Investor's Business Daily",
+"title": "Dow Jones Futures Rise; Nvidia Stock Tops 1,000 On Earnings, Other AI Plays Rally - Investor's Business Daily",
+"description": "The AI chip leader said the \"next industrial revolution\" is here.",
+"url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-nvda-stock/",
+"urlToImage": "https://www.investors.com/wp-content/uploads/2017/12/stock-nvidia-10-company.jpg",
+"publishedAt": "2024-05-23T12:12:00Z",
+"content": "Dow Jones futures rose early Thursday, along with S&amp;P 500 futures and especially Nasdaq futures rose as Nvidia (NVDA) jumped on earnings.\r\nXThe stock market rally retreated slightly heading into … [+6467 chars]"
+},
+{
+"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Investor's Business Daily",
+"title": "Microsoft Stock Copilots AI Boom With ServiceNow As Nvidia Smashes Targets Again - Investor's Business Daily",
+"description": null,
+"url": "https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vd3d3LmludmVzdG9ycy5jb20vcmVzZWFyY2gvaWJkLXN0b2NrLWFuYWx5c2lzL21pY3Jvc29mdC1zdG9jay1tc2Z0LW52aWRpYS1zZXJ2aWNlbm93L9IBAA?oc=5",
+"urlToImage": null,
+"publishedAt": "2024-05-23T12:00:00Z",
+"content": null
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Krystal Hur",
+"title": "Walmart and Target are slashing prices. What does that mean for inflation? - CNN",
+"description": "Americans might notice markdowns for some everyday essentials during their weekly grocery runs. That doesn’t mean the battle against inflation is won.",
+"url": "https://www.cnn.com/2024/05/23/investing/premarket-stocks-trading-target-walmart-inflation/index.html",
+"urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2151514039-20240522195657983.jpg?c=16x9&q=w_800,c_fill",
+"publishedAt": "2024-05-23T11:23:00Z",
+"content": "A version of this story first appeared in CNN Business Before the Bell newsletter. Not a subscriber? You can sign up right here. You can listen to an audio version of the newsletter by clicking the s… [+5744 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Theblock.co"
+},
+"author": "James Hunt",
+"title": "QCP Capital predicts spot Ethereum ETF approvals could drive prices higher - The Block",
+"description": "Bitcoin rose around 66% to a peak of approximately $73,800 after the SEC approved spot Bitcoin ETFs on Jan. 10.",
+"url": "https://www.theblock.co/post/296237/qcp-capital-predicts-spot-ethereum-etf-approvals-could-drive-prices-higher",
+"urlToImage": "https://www.tbstat.com/wp/uploads/2023/08/20230726_BitcoinVEthereum_News-1200x675.jpg",
+"publishedAt": "2024-05-23T11:14:22Z",
+"content": "Crypto asset trading firm QCP Capital suggested that if spot Ethereum ETH\r\n +0.79%\r\n exchange-traded funds are approved in the U.S., the price of ether could rally 60% in the coming weeks to around $… [+2905 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNET"
+},
+"author": null,
+"title": "Best Memorial Day Deals Under $25: Early Offers on Tech, Fitness, Games and More - CNET",
+"description": "Plenty of bargains can be found ahead of Memorial Day weekend with these $25 and under offers now live across retailers.",
+"url": "https://www.cnet.com/deals/best-memorial-day-deals-under-25/",
+"urlToImage": "https://www.cnet.com/a/img/resize/821f9b38b205df70718658ca3e4f20e6e81f5691/hub/2024/05/23/a7c44448-4677-4a4d-abd2-d5996d7b1f75/hydroflask-all-around-tumblr-md.png?auto=webp&fit=crop&height=675&width=1200",
+"publishedAt": "2024-05-23T11:13:00Z",
+"content": "Looking to take home some great deals the Memorial Day but don't want to spend big? There's where our guide to the best deals under $25 comes in handy. We're already coming across discounts of up to … [+1258 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Jacqueline Howard",
+"title": "Blood test to detect colon cancer could move a step closer to FDA approval in the US - CNN",
+"description": "Guardant Health’s Shield tests could be the first approved blood screening test for colorectal cancer that meets requirements for Medicare reimbursement.",
+"url": "https://www.cnn.com/2024/05/23/health/colon-cancer-blood-test/index.html",
+"urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/guardant-health-lab-1-1030x686-1.jpg?c=16x9&q=w_800,c_fill",
+"publishedAt": "2024-05-23T10:20:00Z",
+"content": "To screen for colon and rectal cancers, most people have colonoscopies, which can feel invasive and require anesthesia, or they may take an at-home stool test, which can be more convenient but also a… [+8484 chars]"
+},
+{
+"source": {
+"id": "wired",
+"name": "Wired"
+},
+"author": "Boone Ashworth",
+"title": "Kia EV3 Electric SUV: Range, Price, Specs, Release Date - WIRED",
+"description": "The electric five-passenger SUV not only has an impressive maximum range of 372 miles, it also comes with Kia's new generative AI voice assistant.",
+"url": "https://www.wired.com/story/kia-ev3-electric-suv-price-range-specs-release-date/",
+"urlToImage": "https://media.wired.com/photos/664e61613abb82db1c0e08e7/191:100/w_1280,c_limit/kia-ev3-gtline-aventurinegreen-exterior-digital-1920x1080-001.jpg",
+"publishedAt": "2024-05-23T10:03:15Z",
+"content": "The South Korean automaker Kia has a brand-new electric compact SUV on the way. The Kia EV3 is the fourth of the brand's EV models, a high-range SUV that slots into Kias lineup below the flagship Kia… [+1387 chars]"
+},
+{
+"source": {
+"id": "cnn",
+"name": "CNN"
+},
+"author": "Laura He",
+"title": "Bargain-hungry Americans are flocking to Temu and making its Chinese owner very rich - CNN",
+"description": "PDD Holdings, the owner of Temu and Pinduoduo, is blowing past market expectations with a massive surge in profit and revenue as American and Chinese consumers swarm its bargain shopping apps for low-cost products.",
+"url": "https://www.cnn.com/2024/05/23/business/pinduoduo-temu-us-ecommerce-bargains-intl-hnk/index.html",
+"urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1248924929.jpg?c=16x9&q=w_800,c_fill",
+"publishedAt": "2024-05-23T09:31:30Z",
+"content": "PDD Holdings, the owner of Temu and Pinduoduo, is blowing past market expectations with a massive surge in profit and revenue as American and Chinese consumers swarm its bargain shopping apps for low… [+3689 chars]"
+},
+{
+"source": {
+"id": "associated-press",
+"name": "Associated Press"
+},
+"author": "DAVID KOENIG",
+"title": "Remember last year's Memorial Day travel jams? Chances are they will be much worse this year - The Associated Press",
+"description": "Highways and airports are likely to be jammed in the coming days as Americans head out on and home from Memorial Day weekend getaways. AAA predicts this will be the busiest start-of-summer weekend in nearly 20 years. The Transportation Security Administration…",
+"url": "https://apnews.com/article/memorial-day-weekend-travel-traffic-forecast-6d05ba4de79f1ae1ca7fd2c822b532f9",
+"urlToImage": "https://dims.apnews.com/dims4/default/68733c4/2147483647/strip/true/crop/5616x3159+0+293/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fdb%2Fe1%2Fc3113f7bec75b65806b2ad465812%2Ff73400cd7ed647039c68fc82bcd0ba15",
+"publishedAt": "2024-05-23T09:30:00Z",
+"content": "You didnt think summer travel would be easy, did you?\r\nHighways and airports are likely to be jammed the next few days as Americans head out for Memorial Day weekend getaways and then return home. \r\n… [+6860 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "New York Post"
+},
+"author": "Nicholas McEntyre",
+"title": "NJ Transit, Amtrak warn of more delays, cancellations after downed power lines strand thousands for hours - New York Post ",
+"description": "Rush hour commuters were forced to bunker inside New York and Newark Penn Station as workers were dispatched to clear the tracks.",
+"url": "https://nypost.com/2024/05/23/us-news/nj-transit-amtrak-warns-of-more-delays-cancellations-after-downed-power-lines-cause-commuter-chaos/",
+"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/05/82485435.jpg?quality=75&strip=all&w=1024",
+"publishedAt": "2024-05-23T09:02:09Z",
+"content": "NJ Transit and Amtrak warned rush-hour commuters of canceled or delayed trips Thursday morning after thousands were stranded due to fallen electrical wires on the rail tracks. \r\n“Customers should exp… [+3782 chars]"
+},
+{
+"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Axios",
+"title": "More than half of Americans think the U.S. is in a recession. It's not. - Axios",
+"description": null,
+"url": "https://news.google.com/rss/articles/CBMiQGh0dHBzOi8vd3d3LmF4aW9zLmNvbS8yMDI0LzA1LzIzL3VzLXJlY2Vzc2lvbi1lY29ub21pYy1kYXRhLXBvbGzSAQA?oc=5",
+"urlToImage": null,
+"publishedAt": "2024-05-23T09:01:47Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Ruxandra Iordache",
+"title": "Alibaba's Hong Kong shares drop 5% after report of possible $5 billion convertible bond sale - CNBC",
+"description": "Hong Kong-listed shares of Alibaba fell over 5% Thursday following a report that the Chinese tech giant is considering selling convertible bonds.",
+"url": "https://www.cnbc.com/2024/05/23/alibabas-hong-kong-shares-drop-5percent-after-report-of-possible-5-billion-convertible-bond-sale.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/107352704-1703866503872-gettyimages-1885175752-cfoto-illustra231229_np5V1.jpeg?v=1716381984&w=1920&h=1080",
+"publishedAt": "2024-05-23T09:00:46Z",
+"content": "Hong Kong-listed shares of Alibaba fell over 5% Thursday following a report that the Chinese tech giant is considering selling convertible bonds to raise $5 billion.\r\nShares ended the trading day 5.2… [+2314 chars]"
+},
+{
+"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "Huileng Tan",
+"title": "ASML, TSMC can flip chip gear 'kill switch' should China invade Taiwan - Business Insider",
+"description": "Chip giants ASML and TSMC have a remote shutdown option for their advanced EUV chipmaking machines, Bloomberg reported.",
+"url": "https://www.businessinsider.com/asml-tsmc-semiconductor-chip-equipment-kill-switch-china-invade-taiwan-2024-5",
+"urlToImage": "https://i.insider.com/664ecdca9fc063e829b4022c?width=1200&format=jpeg",
+"publishedAt": "2024-05-23T06:22:00Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Lim Hui Jie",
+"title": "JPMorgan CEO Jamie Dimon says can't rule out 'hard landing' for the U.S., stagflation will be 'worst outcome' - CNBC",
+"description": "Dimon said the worst outcome for the U.S. economy will be a \"stagflation\" scenario, where inflation continues to rise, but growth slows amid high unemployment.",
+"url": "https://www.cnbc.com/2024/05/23/jpm-jamie-dimon-us-could-see-hard-landing-stagflation-is-worst-outcome.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/107377794-1708721064977-gettyimages-1243424728-775876928.jpeg?v=1716243157&w=1920&h=1080",
+"publishedAt": "2024-05-23T04:18:15Z",
+"content": "JPMorgan Chase's chairman and CEO Jamie Dimon says a \"hard landing\" for the U.S. cannot be ruled out.\r\nWhen asked by CNBC's Sri Jegarajah about the prospect of a hard landing, Dimon replied: \"Could w… [+2873 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Cointelegraph"
+},
+"author": "Cointelegraph",
+"title": "FIT21 crypto bill passes US House: Here's what could happen next - Cointelegraph",
+"description": null,
+"url": "https://cointelegraph.com/news/crypto-bill-fit21-passes-house-heads-to-senate",
+"urlToImage": null,
+"publishedAt": "2024-05-23T01:45:34Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Daniel Howley",
+"title": "'Demand is just so strong': Nvidia CEO Jensen Huang tells Yahoo Finance supply can't keep up - Yahoo Finance",
+"description": "Nvidia's quarterly results blew away estimates again on Wednesday, and as the company moves to its next-generation chips its CEO sees supply, not demand...",
+"url": "https://finance.yahoo.com/news/demand-is-just-so-strong-nvidia-ceo-jensen-huang-tells-yahoo-finance-supply-cant-keep-up-012653951.html",
+"urlToImage": "https://s.yimg.com/ny/api/res/1.2/QCNTxctb18731TyFDewvEA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTg-/https://s.yimg.com/os/creatr-uploaded-images/2024-03/f39623e0-e5d2-11ee-9ed7-6a2c5ca92af4",
+"publishedAt": "2024-05-23T01:26:00Z",
+"content": "Nvidia (NVDA) CEO Jensen Huang doesn't lack demand. What he lacks is supply.\r\nIn an exclusive interview with Yahoo Finance following the company's first quarter earnings report Wednesday, Huang pushe… [+3722 chars]"
+},
+{
+"source": {
+"id": "axios",
+"name": "Axios"
+},
+"author": "Axios",
+"title": "New data shows U.K. inflation plummeting, in contrast to the U.S. - Axios",
+"description": null,
+"url": "https://www.axios.com/2024/05/22/inflation-uk-crisis",
+"urlToImage": null,
+"publishedAt": "2024-05-22T23:45:24Z",
+"content": null
+}
+]
+}
