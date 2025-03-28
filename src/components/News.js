@@ -21,47 +21,17 @@ export class News extends Component {
     document.title=`Daily News-${this.props.category.toUpperCase()}`;
   }
 
-    async updateNews() {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=19dff94e649c4dabadf8294abe00ada3&page=${this.state.page}&pagesize=${this.props.pagesize}`;
-    
-    this.setState({ loading: true });
-    
-    try {
-      let response = await fetch(url, {
-        headers: {
-          "User-Agent": "Mozilla/5.0",
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-
-      let parsedData = await response.json();
-      this.setState({
-        articles: parsedData.articles || [],
-        totalResults: parsedData.totalResults || 0,
-        loading: false,
-      });
-    } catch (error) {
-      console.error("Error fetching news:", error);
-      this.setState({ articles: [], loading: false });
-    }
-  }
-
-  async componentDidMount() {
-    this.updateNews()
-  }
-  
-  fetchMoreData = async () => {
-  this.setState({ page: this.state.page + 1 });
-
+   async updateNews() {
   const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=19dff94e649c4dabadf8294abe00ada3&page=${this.state.page}&pagesize=${this.props.pagesize}`;
+
+  this.setState({ loading: true });
 
   try {
     let response = await fetch(url, {
+      method: "GET",
       headers: {
-        "User-Agent": "Mozilla/5.0",
+        "User-Agent": "Mozilla/5.0",  // Helps with API requests
+        "Accept": "application/json", // Ensures correct response format
       },
     });
 
@@ -70,6 +40,45 @@ export class News extends Component {
     }
 
     let parsedData = await response.json();
+    console.log("Fetched news data:", parsedData); // Debugging
+
+    this.setState({
+      articles: parsedData.articles || [],
+      totalResults: parsedData.totalResults || 0,
+      loading: false,
+    });
+  } catch (error) {
+    console.error("Error fetching news:", error);
+    this.setState({ articles: [], loading: false });
+  }
+}
+
+
+  async componentDidMount() {
+    this.updateNews()
+  }
+  
+ fetchMoreData = async () => {
+  this.setState({ page: this.state.page + 1 });
+
+  const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=19dff94e649c4dabadf8294abe00ada3&page=${this.state.page}&pagesize=${this.props.pagesize}`;
+
+  try {
+    let response = await fetch(url, {
+      method: "GET",
+      headers: {
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    let parsedData = await response.json();
+    console.log("Fetched more news data:", parsedData); // Debugging
+
     this.setState({
       articles: this.state.articles.concat(parsedData.articles || []),
       totalResults: parsedData.totalResults || 0,
@@ -79,6 +88,7 @@ export class News extends Component {
     console.error("Error fetching more news:", error);
   }
 };
+
 
 
 
