@@ -21,18 +21,34 @@ export class News extends Component {
     document.title=`Daily News-${this.props.category.toUpperCase()}`;
   }
 
-  async updateNews(){
+    async updateNews() {
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=19dff94e649c4dabadf8294abe00ada3&page=${this.state.page}&pagesize=${this.props.pagesize}`;
+    
     this.setState({ loading: true });
-    let data = await fetch(url);
-    let parseddata = await data.json();
-    this.setState({
-      articles: parseddata.articles,
-      totalResults: parseddata.totalResults,
-      loading: false
-    });
+    
+    try {
+      let response = await fetch(url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0",
+        },
+      });
 
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      let parsedData = await response.json();
+      this.setState({
+        articles: parsedData.articles || [],
+        totalResults: parsedData.totalResults || 0,
+        loading: false,
+      });
+    } catch (error) {
+      console.error("Error fetching news:", error);
+      this.setState({ articles: [], loading: false });
+    }
   }
+
   async componentDidMount() {
     this.updateNews()
   }
