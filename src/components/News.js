@@ -54,16 +54,32 @@ export class News extends Component {
   }
   
   fetchMoreData = async () => {
-    this.setState({page: this.state.page + 1})
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=19dff94e649c4dabadf8294abe00ada3&page=${this.state.page}&pagesize=${this.props.pagesize}`;
-    let data = await fetch(url);
-    let parseddata = await data.json();
-    this.setState({
-      articles: this.state.articles.concat(parseddata.articles),
-      totalResults: parseddata.totalResults,
-      loading: false
-      })
+  this.setState({ page: this.state.page + 1 });
+
+  const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=19dff94e649c4dabadf8294abe00ada3&page=${this.state.page}&pagesize=${this.props.pagesize}`;
+
+  try {
+    let response = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
     }
+
+    let parsedData = await response.json();
+    this.setState({
+      articles: this.state.articles.concat(parsedData.articles || []),
+      totalResults: parsedData.totalResults || 0,
+      loading: false,
+    });
+  } catch (error) {
+    console.error("Error fetching more news:", error);
+  }
+};
+
 
 
   render() {
